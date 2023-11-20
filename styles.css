@@ -1,0 +1,266 @@
+/* fuente inportada de google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script:wght@700&family=Varela+Round&display=swap');
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+/* variables */
+:root{
+
+--primary-color:#2c2f30;
+--color-fondo:#90e0ef;
+--secundary-color:#364652;
+--color-botones: rgb(17, 0, 255);
+--color-titulos:#5335EC; 
+--color-iconos:#ec0ac7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    }
+    
+    /* stilos del body */
+    body{
+
+        font-size: 1em;
+        font-family: 'Montserrat', sans-serif;
+        color: #2e2e31;
+       font-family: 'Montserrat', sans-serif;
+       height:100%;
+       font-family: Round;
+        background-color: var(--color-fondo);
+    text-transform: capitalize;
+   
+}
+      /*fin de estylos body  */
+     
+
+      /* inicio se estilos del header */
+    header{
+
+        background-color: #fff;
+        padding: 25px 0;
+        box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
+        position: fixed;
+        top: 0;
+        transition: 0.4s;
+        width: 100%;
+
+    }   
+    
+    
+    .menu{
+        display: flex;
+        color: aliceblue; 
+        display: flex;
+        justify-content: flex-end;
+        }
+        
+        .menu li{
+        list-style: none;
+        
+        }
+        .menu a{
+        
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        .menu .contacto{
+            padding: 10px 20px;
+            background-color: rgb(112, 97, 248);
+            border: none;
+            border-radius: 10px;
+            margin-top: 15px;
+            cursor: pointer;
+    
+    
+        }
+        
+        .menu a:hover{
+            color: #fff;
+      
+            background-color: rgb(22, 7, 153);
+        }
+        
+        
+        button{
+    
+            padding: 10px 20px;
+            background-color: var(--color-botones);
+            border: none;
+            border-radius: 10px;
+            margin-top: 15px;
+            cursor: pointer;
+    
+        } 
+
+   /* Ejecuta el CSS en pantallas cuyo ancho tenga como mínimo 768px */
+/* Es decir, lo ejecuta a partir de 768px en adelante */
+
+     
+        @media  (max-width :768px) {
+            header{
+                flex: none;
+              
+            }
+        }
+       
+/* final de estilos del header */
+
+/* inicio de estilos del main */
+  main{
+
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    justify-content: center;
+    padding: 110px 40px 130px;
+    text-align: center;
+}
+
+
+ /* media para el main */
+
+
+
+.info-contentenido{
+
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.info-content button{
+
+    background-color: rgb(112, 97, 248);
+
+}
+
+
+
+.info-content button:hover{
+  color: #fff;
+        transform: scale(1.1);
+        background-color: rgb(22, 7, 153);
+      
+    
+    }
+
+
+.saludo{
+
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 800;
+
+
+
+}
+
+h1{
+
+    margin-top: 0;
+    margin-bottom: 5px; 
+    color: var(--color-titulos);
+    font-size: 60px;
+    font-weight: 900;
+}
+
+img{
+    width: 100%;
+    max-width: 500px; 
+    display: block;
+}
+/* media para main */
+@media screen and (max-width: 600px) {
+    .main { 
+    flex-direction:column;
+   
+    }
+  
+  }
+/* fin de estilos de main */
+
+/* inicio estilos conocimientos */
+
+ #caja-info{ 
+
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    padding: 110px 40px 130px;
+    text-align: center;
+}
+
+h2{
+   color: var(--color-titulos);
+    margin-bottom: 0.375em;
+    line-height: 1.2;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+
+
+
+.cuadricula{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    place-content: center;
+    margin-top: 40px; 
+
+    
+   
+}
+/* media para cuadricula */
+
+
+@media screen and (max-width: 700px) {
+    .cuadricula{ 
+        grid-template-columns: repeat(2,1fr);
+
+    }
+  
+  }
+
+
+/* fin media para grilla */
+/*stilos de iconos de la grilla conocimientos */
+.item{
+
+    color: #2e2e31;
+    padding: 40px 20px;
+    background-color: #fff;
+    border: 1px solid #dddfe5;
+    border-radius: 8px;
+    width: 260px;
+    margin: 10px;
+    padding: 30px;
+    transition: 0.2s;
+
+
+}
+
+.item:hover {
+        
+    border: 1px solid  rgb(22, 7, 153) ;
+    transition: 0.3s;
+}
+
+.lenguaje{
+    font-size: 1.25em;
+    font-weight: 700;
+
+}
+
+
+/* fin stios de conocimientos */
