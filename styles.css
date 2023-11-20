@@ -357,4 +357,112 @@ a{
 
 
 
-/* fin de proyectos */
+/* fin de proyectos */ 
+
+/* inicio de redes y contacto */
+
+.box-red{
+
+    line-height: 1.4; 
+}
+
+.iconos-redes{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    
+}
+.redes{
+
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 100px;
+}
+
+.links a:hover{
+   
+     color:var(--color-titulos);
+     transform: scale(1.1);
+   
+     
+ }
+
+
+
+    
+
+i{
+
+    display: block;
+    color:var(--color-titulos);
+    border-radius: 50%;
+     padding: 5px 10px;
+    border-radius: 10px;
+}
+
+
+
+i:hover{
+    background-color: rgb(238, 237, 243)
+    
+ 
+}
+.box-red{
+   
+    display: flex;
+    text-align: center;
+    padding: 80px 60px;
+    border-radius: 15px;
+justify-content: center;
+align-items: flex-start
+}
+
+.lista-redes{
+   
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+   text-align: center;
+   /* align-items: center; */
+
+}
+
+
+
+/* media de redes */
+@media screen and (max-width: 600px) {
+    .box-red { 
+    flex-direction:column;
+    }
+  
+  }
+
+.escribeme{
+
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+  text-align: center;
+
+
+
+}
+
+textarea{
+    border-radius: 20px;
+    background-color: #dbe1f8;
+    border: 1px solid var(--color-botones);
+    font-size: var(--text-sm);
+    padding: 10px 15px;
+    display: block;
+    width: 100%;
+    outline: none;
+   
+    transition: 0.2s;
+
+}
+  /* fin de redes y contacto */  
