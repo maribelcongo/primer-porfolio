@@ -80,9 +80,10 @@
         
         .menu a:hover{
             color: #fff;
-      
-            background-color: rgb(22, 7, 153);
+           background-color: rgb(22, 7, 153);
+           
         }
+        
         
         
         button{
@@ -95,17 +96,6 @@
             cursor: pointer;
     
         } 
-
-   /* Ejecuta el CSS en pantallas cuyo ancho tenga como mínimo 768px */
-/* Es decir, lo ejecuta a partir de 768px en adelante */
-
-     
-        @media  (max-width :768px) {
-            header{
-                flex: none;
-              
-            }
-        }
        
 /* final de estilos del header */
 
@@ -136,7 +126,7 @@
 }
 
 
-.info-content button{
+.info-contentenido button{
 
     background-color: rgb(112, 97, 248);
 
@@ -144,7 +134,7 @@
 
 
 
-.info-content button:hover{
+.info-contentenido button:hover{
   color: #fff;
         transform: scale(1.1);
         background-color: rgb(22, 7, 153);
