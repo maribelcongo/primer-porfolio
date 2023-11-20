@@ -466,3 +466,71 @@ textarea{
 
 }
   /* fin de redes y contacto */  
+   
+   /* inicio del footer */
+footer{
+
+    width: 100%;
+    background-color: rgb(247, 149, 203);
+     
+}
+
+.menu-footer{
+    display: flex;
+  align-items: center;
+    list-style: none;
+  justify-content: center;
+  justify-content: space-around;
+  
+  }
+
+  .box-footer{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+ 
+  }
+ .tex-footer{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+  .icono-footer{
+  color: var(--color-botones);
+ 
+  border-radius: 100%;
+  }  
+  
+.icono-footer:hover{
+    color: #fff;
+    background: 200%;
+    transform:   scale(1.1);
+    background-color: rgb(22, 7, 153);
+    
+
+}
+
+
+
+.enviar{
+
+    background-color: rgb(112, 97, 248);
+     color: white; 
+    padding: 15px 40px;
+    border-radius: 100px
+
+    
+} 
+
+.enviar:hover{
+     color: #fff;
+   background: 200%;
+   transform:   scale(1.1);
+   background-color: rgb(22, 7, 153);
+}
+
+
