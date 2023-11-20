@@ -264,3 +264,25 @@ h2{
 
 
 /* fin stios de conocimientos */
+
+
+/* inicio stilos del bloque */
+.comillas{
+    color: var(--color-titulos);
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    font-size: 5rem;
+    margin-bottom: 20px;
+    }
+    
+    .caja-bloque{
+    width: 100%;
+        background-color: rgb(252, 183, 231);
+        color:var(--secundary-color);
+        display: flex;
+        justify-content: center;
+        padding: 110px 40px 130px;
+        text-align: center;
+    }
+    /* fin de estilos bloque */
