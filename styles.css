@@ -22,9 +22,10 @@
     
     }
     
+   
     /* stilos del body */
     body{
-
+        height: 100%;
         font-size: 1em;
         color: #2e2e31;
        font-family: Round;
@@ -189,13 +190,26 @@ img{
 
  #caja-info{ 
 
-    
+    width: 100%;
     /* display: flex; */
-    justify-content: center;
-    padding: 110px 40px 130px;
+    /* justify-content: center; */
+    /* padding: 110px 40px 130px; */
+    /* text-align: center; */
+  /* padding-block: 50px; */
+} 
+
+.informacion{
+    /* display: flex; */
     text-align: center;
- 
+    justify-content: center;
+    max-width: 1100px;
+    margin: auto;
 }
+
+
+
+
+
 
 h2{
    color: var(--color-titulos);
@@ -213,9 +227,9 @@ h2{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
-    place-content: center;
-    margin-top: 40px; 
-    max-width: 100%;
+    /* place-content: center; */
+    /* margin-top: 40px; 
+    max-width: 100%; */
     
    
 }
@@ -276,26 +290,32 @@ h2{
     }
     
     .caja-bloque{
-     width: 100%; 
+       width: 100%; 
         background-color: rgb(252, 183, 231);
         color:var(--secundary-color);
+        margin: auto;
         display: flex;
-        justify-content: center;
-        padding: 110px 40px 130px;
-        text-align: center;
+        align-items: center;
+        justify-content: center; 
+        text-align: center; 
+   
+    
+    
     }
+
     /* fin de estilos bloque */
+
     /* inicio seccion proyectos */
 
 .proyectos{
     
+
+    display: flex;
     width: 100%;
-    max-height: 100%;
-   display: flex;
-    flex-direction: column;
-   justify-content: center;
-  text-align: center;
-  align-items: center;
+    padding: 110px 40px 140px;
+    text-align: center;
+    justify-content: center;
+    
 }
  
 /* estilos de las imagenes dela segunda cuadricula */
@@ -303,40 +323,24 @@ h2{
 .grilla{
 
  display: grid;
-grid-template-columns: repeat(3,1fr);
-gap: 10px;
-place-content: center;
-margin-top: 40px;  
-column-width: 15em;
- max-width: 100%; 
-
-   
+ grid-template-columns: repeat(3,1fr);  
+ gap: 10px;
+ padding-block: 30px;
+ 
 }
 
 
-@media screen and (max-width: 550px)   {
-   .grilla{ 
-         grid-template-columns: repeat(1,1fr); 
-       padding: 20px; 
-   
-      
-         
-   }
- 
- }
- 
- 
+
+
 .items{
      
       color: #2e2e31;
-      padding: 40px 20px;
+       padding: 40px 20px; 
       background-color: var(--color-fondo);
       border: 1px solid var(--color-bordes);
-      border-radius: 8px;
-        width: 280px;  
-      margin: 10px;
-      padding: 20px;
-      transition: 0.3s;
+      height: 250px;
+     width: 250px;  
+    transition: 0.3s;
            
 }
 .items:hover {
@@ -358,6 +362,15 @@ a{
 /* fin de proyectos */ 
 
 /* inicio de redes y contacto */
+
+
+#redes-sociales{
+
+   width: 100%; 
+   
+}
+
+
 
 .box-red{
 
@@ -425,7 +438,7 @@ align-items: flex-start
      flex-direction: column;
     justify-content: center;
    text-align: center;
-   /* align-items: center; */
+   
 
 }
 
@@ -445,7 +458,7 @@ align-items: flex-start
     flex-direction: column;
    justify-content: center;
   text-align: center;
-
+  font-size: 1,4rem;
 
 
 }
@@ -454,7 +467,7 @@ textarea{
     border-radius: 20px;
     background-color: #dbe1f8;
     border: 1px solid var(--color-botones);
-    font-size: var(--text-sm);
+  
     padding: 10px 15px;
     display: block;
     width: 100%;
