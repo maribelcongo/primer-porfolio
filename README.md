@@ -5,4 +5,4 @@ para ver como quedo [enlace](https://maribelcongo.github.io/primer-porfolio/).
 
 #Este portfolio fue desarrollado en la  cursada de del primer modulo de  Ada.
  con ❤ Para todo el 🌍
-!(seccion conocimientos)[imagenes/imagen seccion conocimientos.png]
+!(seccion conocimientos)[imagenes/undraw_calculator_re_alsc.svg]
